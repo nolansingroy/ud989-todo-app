@@ -68,7 +68,7 @@ var app = app || {};
 				app.TodoFilter === 'completed';
 		},
 
-    //toggle the priority state of the model
+    //toggle the `"priority"` state of the model
 		togglePriority: function () {
 			this.model.togglePriority();
 		},
