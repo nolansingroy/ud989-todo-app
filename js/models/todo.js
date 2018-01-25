@@ -17,7 +17,7 @@ var app = app || {};
 			priority: false
 		},
 
-    //Toggle Priority
+    //Toggle `Priority`
     togglePriority: function () {
         this.save({
 					priority: !this.get('priority')
